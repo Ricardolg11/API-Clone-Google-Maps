@@ -2,6 +2,55 @@
     left: 400px;
     height: 500px;
     width: 500px;
+    transition: 2s;
     background: #ddd;
 
+}
+
+@media screen and (max-width: 900px)  { 
+    
+    .map {
+        left: 15px;
+        height: 523px;
+        width: 600px;
+        transition: 2s;
+    }
+}
+
+
+@media screen and (max-width: 620px)  { 
+    
+    .map {
+        left: 15px;
+        height: 523px;
+        width: 333px;
+        transition: 2s;
+    }
+}
+
+@media screen and (max-height: 500px)  { 
+    
+    .map {
+        left: 15px;
+        height: 400px;
+        transition: 2s;
+    }
+}
+
+@media screen and (max-height: 400px)  { 
+    
+    .map {
+        left: 15px;
+        height: 300px;
+        transition: 2s;
+    }
+}
+
+@media screen and (max-height: 300px)  { 
+    
+    .map {
+        left: 15px;
+        height: 200px;
+        transition: 2s;
+    }
 }
