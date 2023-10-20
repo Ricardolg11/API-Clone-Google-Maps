@@ -31,7 +31,6 @@
 @media screen and (max-height: 500px)  { 
     
     .map {
-        left: 15px;
         height: 400px;
         transition: 2s;
     }
@@ -40,7 +39,6 @@
 @media screen and (max-height: 400px)  { 
     
     .map {
-        left: 15px;
         height: 300px;
         transition: 2s;
     }
@@ -49,8 +47,7 @@
 @media screen and (max-height: 300px)  { 
     
     .map {
-        left: 15px;
-        height: 200px;
+        height: 180px;
         transition: 2s;
     }
 }
