@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
+html, body {
+    height: 100%;
+}
 .map{
-    left: 400px;
-    height: 500px;
-    width: 500px;
+    height: 100%;
     transition: 2s;
     background: #ddd;
-
 }
 
 @media screen and (max-width: 900px)  { 
@@ -22,7 +22,6 @@
         transition: 2s;
     }
 }
-
 
 @media screen and (max-width: 620px)  { 
     
