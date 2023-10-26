@@ -8,9 +8,9 @@ function initMap() {
 
     let mapOptions = {
     
-            center: {lat: -34.397, lng: 150.644},
+            center: {lat: 3.716816, lng: 38.519115},
             zoom: 8,
-            mapTypeId: 'terrain' // rodmap, satellite, hybrid, terrain
+            mapTypeId: 'roadmap' // rodmap, satellite, hybrid, terrain
     };
 
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
