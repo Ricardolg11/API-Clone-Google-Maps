@@ -1,4 +1,5 @@
-// Mapype
+// MapType
+
 // Atributos
 // MaxZoom*
 // titleSize* 200
@@ -10,6 +11,7 @@
 // getTile(coord, zoom, document)
 // releaseTile(tile)
 
+// Meu mapa
 
 class MeuMapa {
     constructor(tileSize) {
@@ -19,6 +21,7 @@ class MeuMapa {
         this.alt = 'O mapa não carregou';
     }
 
+    //criando blocos
     getTile(coord, zoom, ownerDocument){
         let div = ownerDocument.createElement('div');
         div.innerHTML = 'ricardo';
@@ -33,7 +36,6 @@ class MeuMapa {
     }
 
 }
-
 
 let map;
 let button = document.querySelector('.satellite');
@@ -51,5 +53,7 @@ function initMap() {
     };
 
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+    map.mapTypeId.set('meumapa', new Meumapa(new google.maps.Size(256, 256)))
 }
 
