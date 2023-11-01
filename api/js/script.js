@@ -27,7 +27,7 @@ class MeuMapa {
         div.style.background = '#ddd';
         div.style.borderStyle = 'solid';
         div.style.borderWidth = '1px';
-        div.style.borderColor = '#333';
+        div.style.borderColor = '#0000';
         return div;
 
     } 
