@@ -21,8 +21,8 @@ class MeuMapa {
     getTile(coord, zoom, ownerDocument) {
         let div = ownerDocument.createElement('div');
         div.innerHTML = 'Ricardo';
-        div.style.width = this.tileSize.width='px';
-        div.style.height = this.tileSize.height='px';
+        div.style.width = this.tileSize.width+'px';
+        div.style.height = this.tileSize.height+'px';
         div.style.fontSize = '10px';
         div.style.backgroundColor = '#333';
         div.style.borderStyle = 'solid';
