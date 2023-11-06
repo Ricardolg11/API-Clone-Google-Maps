@@ -32,7 +32,6 @@ class MeuMapa {
 
     } 
 }
-
 let map;
 
 function initMap() {
