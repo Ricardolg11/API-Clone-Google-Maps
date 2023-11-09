@@ -46,6 +46,8 @@ function initMap() {
             }
     };
 
+
+    
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
     map.mapTypes.set('meumapa', new MeuMapa(new google.maps.Size(256,256)));
 }
