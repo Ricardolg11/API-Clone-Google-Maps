@@ -38,6 +38,7 @@ function initMap() {
             mapTypeId: 'roadmap', // roadmap, satellite, hybrid, terrain
     };
 
+    // chamando mapas
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
     map.overlayMapTypes.insertAt(0, new OverlayMap(new google.maps.Size(256,256)));
 }
