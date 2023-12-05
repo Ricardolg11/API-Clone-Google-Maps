@@ -1,5 +1,3 @@
-// Criando blocos de imagem
-// usando classe imageMapType
 let map;
 
 function initMap() {
@@ -7,12 +5,22 @@ function initMap() {
     let mapOptions = {
     
             center: {lat: 3.716816, lng: 38.519115},
-            zoom: 8,
-            mapTypeId: 'roadmap', // roadmap, satellite, hybrid, terrain
+            zoom: 8
     };
 
-    // chamando mapas
 
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    map.overlayMapTypes.insertAt(0, new OverlayMap(new google.maps.Size(256,256)));
+    
+    //ImageMapType
+
+    let imageMapType = new google.maps.ImageMapType({
+        tileSize: new google.maps.Size(256, 256) ,
+        getTileUrl: function(coord, zoom) {
+            return '';
+
+        },
+        maxZoom: 18
+
+    });
+
 }
