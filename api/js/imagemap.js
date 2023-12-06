@@ -8,7 +8,6 @@ function initMap() {
             zoom: 8
     };
 
-
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
     
     //ImageMapType
