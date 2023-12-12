@@ -13,7 +13,7 @@ function initMap() {
     //ImageMapType
 
     let imageMapType = new google.maps.ImageMapType({
-        tileSize: new google.maps.Size(256, 256) ,
+        tileSize: new google.maps.Size(256,256),
         getTileUrl: function(coord, zoom) {
             return '';
 
