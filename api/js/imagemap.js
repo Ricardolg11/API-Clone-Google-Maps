@@ -1,5 +1,4 @@
 var map;
-
 function initMap() {
 
     var mapOptions = {
@@ -21,7 +20,8 @@ function initMap() {
             return 'https://tile.openstreetmap.org/'+ zoom  + ' /' + coord.x + '/'+ coord.y + '.png';
 
         },
-        maxZoom: 18
+        maxZoom: 18,
+        name: 'Open Map'
 
     });
 
@@ -29,4 +29,3 @@ function initMap() {
     map.setMapType('osm')
 
 }
-

@@ -9,7 +9,6 @@
 // Metodos
 // getTile(coord, zoom, document)
 // releaseTile(tile)
-
 class OverlayMap{
     constructor(tileSize) {
         this.tileSize = tileSize;
@@ -33,7 +32,7 @@ function initMap() {
 
     let mapOptions = {
     
-            center: {lat: 3.716816, lng: 38.519115},
+            center: {lat: -3.716816, lng: -38.519115},
             zoom: 8,
             mapTypeId: 'roadmap', // roadmap, satellite, hybrid, terrain
     };
