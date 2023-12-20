@@ -1,7 +1,7 @@
-var map;
+let map;
 function initMap() {
 
-    var mapOptions = {
+    let mapOptions = {
     
             center: {lat: -3.716816, lng: -38.519115},
             zoom: 8,
@@ -14,7 +14,7 @@ function initMap() {
     
     //ImageMapType
 
-    var imageMapType = new google.maps.ImageMapType({
+    let imageMapType = new google.maps.ImageMapType({
         tileSize: new google.maps.Size(256,256),
         getTileUrl: function(coord, zoom) {
             return 'https://tile.openstreetmap.org/'+ zoom  + ' /' + coord.x + '/'+ coord.y + '.png';
